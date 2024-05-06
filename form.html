@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!--Forms Creating -->
+    <h1>Forms Creating</h1>
+
+    <form action="index.html">
+        <label for="name">Name</label>
+    <input type="text" placeholder="Enter Your Name"> <br> <!--br tag for next line--> <br>
+
+    <label for="email">Email</label>
+    <input type="email" placeholder="Enter Your Mail Id"> <br> <br>
+
+    <label for="pass">Password</label>
+    <input type="password" maxlength="8" placeholder="Enter Your Password"> <br> <br>
+
+    <label for="number">Choose</label>
+    <input type="number" min="3" max="9" placeholder="3 to 9"> <br> <br>
+
+    <label for="commentsection">Comment Section</label> <br>
+    <textarea placeholder="Comment Section"></textarea> <br> <br>
+
+    <!--Multiple Options-->
+    <h2>Which Instructor Would You Like to Study With</h2>
+    <input type="checkbox">
+    <label for="Zeeshan">Zeeshan</label>
+    <input type="checkbox">
+    <label for="Artaza">Artaza</label> 
+    <input type="checkbox">
+    <label for="Somad">Somad</label>
+    <input type="checkbox">
+    <label for="Asim">Asim</label>
+    <br> <br>
+
+    <!--Single Options-->
+    <h2>Are You Agree With the Instuctors Policy</h2>
+    <input type="radio" name="Options">
+    <label for="Yes">Yes</label>
+    <input type="radio" name="Options">
+    <label for="No">No</label> <br> <br>
+
+    <!--DropDown-->
+    <h2>Select Course</h2>
+    <label for="Select">Select</label>
+    <select name="" id="">
+    <option value="">Html</option>
+    <option value="">CSS</option>
+    <option value="">JavaScript</option> 
+    </select> <br><br>
+
+    <!--Calendar And Time-->
+    <h2>Select Your Date And Time</h2>
+    <label for="date">Date</label>
+    <input type="date" name="date" id="date"> <br> <br>
+
+    <label for="time">Time</label>
+    <input type="time"> <br> <br>
+
+    <!--File Access-->
+    <input type="file"> <br> <br>
+
+    <!--Color Selection-->
+    <label for="color">Select Your Course Color</label>
+    <input type="color"> <br> <br>
+
+    <!--Search-->
+    <label for="search">Search</label>
+    <input type="search" placeholder="search"> <br> <br>
+
+    <!--3 Type of Buttons-->
+    <button>Submit</button>
+    <button type="reset">Reset</button>
+    <button type="menu">Menu</button>
+    <button disabled>Agree</button>
+    </form>
+
+</body>
+</html>
